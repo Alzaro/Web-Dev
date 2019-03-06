@@ -1,0 +1,8 @@
+#User-specific Files
+*.sln
+*.suo
+*.lock
+*.ide
+*.ide-shm
+*.ide-wal
+*.config
