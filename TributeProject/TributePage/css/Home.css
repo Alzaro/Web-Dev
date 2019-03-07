@@ -1,4 +1,48 @@
 ﻿body
 {
-	background:black;
+	
+}
+#main 
+{
+	background:hsl(0, 0%, 85%);
+	margin: 20px;
+	border-radius:15px;
+	text-align:center;
+	max-width:100%;
+	height:auto;
+	font-family: Bookman, sans-serif;
+}
+#title-div 
+{
+	padding:1%;
+}
+#title-sub
+{
+	font-size:1.2em;
+	font-style:italic;
+}
+#img-div
+{
+	width: 95%;
+	border-radius: 50px;
+	margin:auto;
+	/*background: hsl(0, 0%, 80%);*/
+	height:auto;
+}
+img
+{
+	display: block;
+	max-width: 100%;
+	height: auto;
+	margin:auto;
+	border-radius:10%;
+}
+img:hover
+{
+	-webkit-transition:1s all;
+	-webkit-filter:brightness(50%);
+}
+#img-caption
+{
+	font-size:1.01em;
 }
