@@ -11,6 +11,7 @@
 	max-width:100%;
 	height:auto;
 	font-family: Bookman, sans-serif;
+	padding-bottom:1%;
 }
 #title-div 
 {
@@ -37,7 +38,6 @@ img
 	height: auto;
 	margin:auto;
 	border-radius:10%;
-	text-align: center;
 
 }
 img:hover
@@ -52,11 +52,27 @@ img:hover
 }
 #tribute-info
 {
-	width:50%;
-	margin-left:25%;
-	margin-right:25%;
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
 }
 #tribute-info p
 {
 	text-align:left;
+}
+blockquote
+{
+	font-size: 14pt;
+	font-style: italic;
+	background: hsl(0, 0%, 80%);
+	border-radius: 10px;
+	padding: 20px 20px 20px 20px;
+	word-spacing:2px;
+}
+@media(max-width: 600px)
+{
+	blockquote
+	{
+		font-size: 12pt;
+	}
 }
