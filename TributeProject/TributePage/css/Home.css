@@ -28,6 +28,7 @@
 	margin:auto;
 	/*background: hsl(0, 0%, 80%);*/
 	height:auto;
+
 }
 img
 {
@@ -36,13 +37,26 @@ img
 	height: auto;
 	margin:auto;
 	border-radius:10%;
+	text-align: center;
+
 }
 img:hover
 {
 	-webkit-transition:1s all;
-	-webkit-filter:brightness(50%);
+	-webkit-filter:brightness(80%);
+	border-radius:15%;
 }
 #img-caption
 {
 	font-size:1.01em;
+}
+#tribute-info
+{
+	width:50%;
+	margin-left:25%;
+	margin-right:25%;
+}
+#tribute-info p
+{
+	text-align:left;
 }
